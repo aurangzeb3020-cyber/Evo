@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+.chat-messages::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-messages::-webkit-scrollbar-track {
+  @apply bg-slate-100 rounded-full;
+}
+.chat-messages::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}

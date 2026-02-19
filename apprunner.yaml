@@ -1,0 +1,13 @@
+# AWS App Runner – Evocative (second React app)
+# Build: npm ci + npm run build in frontend. Run: npm start (serve dist on 8080).
+version: 1.0
+runtime: nodejs22
+build:
+  commands:
+    build:
+      - cd frontend && npm ci
+      - cd frontend && npm run build
+run:
+  command: cd frontend && npm start
+  network:
+    port: 8080
