@@ -1,0 +1,8 @@
+{
+  "name": "evocative-app",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd frontend && npm start"
+  }
+}
