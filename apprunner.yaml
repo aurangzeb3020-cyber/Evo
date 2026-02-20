@@ -8,6 +8,6 @@ build:
       - cd frontend && npm ci
       - cd frontend && npm run build
 run:
-  command: sh -c "cd frontend && npm start"
+  command: sh -c 'cd frontend && npm start'
   network:
     port: 8080
